@@ -30,5 +30,10 @@ It will include all basic function of DJANGO.
 
 #### 2) Create a CustomUser
 -----------------------
-
-
+- Create an app 'Accounts' for the log in/out and sign in.
+- Create A CustomUser who herit from the initial User from Django.
+- Add it in the admin panel.
+- Edit the settings.py file ("AUTH_USER_MODEL") with the new user.
+  
+### 3) Create Model Command - Article
+--------------------------

@@ -9,6 +9,9 @@
     <link rel="stylesheet" href= {% static 'css/styles.css' %}/>
   </head>
   <body>
+    {% if user.is_authenticated  %}
+    Hello {{ user.username }}
+    {% endif %}
     <main>{% block content %} {% endblock content %}</main>
   </body>
 </html>
